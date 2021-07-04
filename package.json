@@ -1,7 +1,7 @@
 {
   "name": "deploy-segware-text",
   "version": "0.1.0",
-  "homepage": "deploy-segware-text/",
+  "homepage": "https://marcelosoliveira.github.io/deploy-segware-text/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
