@@ -18,7 +18,7 @@ const CustomHome = ({ id, text, author, upCount, downCount, createdAt, updateCou
   const requestUserId = async () => {
     const idUser = await fetchUserId();
     setHandler(true);
-    votes.map(({ userId: voteUserId }) => {
+    votes.forEach(({ userId: voteUserId }) => {
       if (voteUserId === idUser) setHandler(false);
     });
   }
